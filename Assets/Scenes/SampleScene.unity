@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 1681775287}
   - component: {fileID: 1681775288}
   - component: {fileID: 1681775289}
+  - component: {fileID: 1681775290}
   m_Layer: 0
   m_Name: John
   m_TagString: Untagged
@@ -388,8 +389,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1889d7a4ff4c874448db9ff9754d1bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 4507390788721134468, guid: 97891b7cc818d254385262d2d86051b8, type: 3}
   Speed: 1
   JumpForce: 150
+--- !u!95 &1681775290
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681775284}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 60cf4c9f789b79b4787d722f20e078f8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2021204796
 GameObject:
   m_ObjectHideFlags: 0
